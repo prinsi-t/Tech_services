@@ -4,12 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Get Started</title>
+    <link rel="stylesheet" href="starting2.css">
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://kit.fontawesome.com/4377c0b254.js" crossorigin="anonymous"></script>
     <link rel="icon" type="image/png" sizes="32x32" href="img/favicon.ico">
     <link rel="manifest" href="/site.webmanifest">
 </head>
 <body>
-    <h1>tt</h1>
+    <section class="header">
+        <nav>
+            <img class="logo" src="logo.png " alt="img" >
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#section2">About Us</a></li>
+                <a href="contact/index.html"><li>Contact</li></a>
+                <li><a href="index.html#works">Projects</a></li>
+            </ul>
+            
+        </nav>
+    </section>
+
+    <h1 class="text-center m-20 text-2xl font-bold tracking-wide text-neutral-700">Welcome To Our Page!</h1>
+
+    <section class="ml-20 text-4xl">
+    <h3>Let's build something </h3>
+    <h3 class="font-bold text-violet-900">Great Together.</h3>
+    </section>
+
+    <section>
+        <form action="">
+            <p><input class="bg-neutral-600" type="text" name="" id="name" placeholder="Name"></p>
+            <p><input class="bg-neutral-600" type="email" name="" id="email" placeholder="Email"></p>
+            <p><textarea class="bg-neutral-600" name="" id="message" cols="30" rows="10" placeholder="Message"></textarea></p>
+            <button class="px-10 bg-violet-900 text-white font-bold">Send</button>
+        </form>
+    </section>
 </body>
 </html>
