@@ -99,7 +99,10 @@
     border-top:2em solid #5a189a;
   }
 
- 
+ .dark{
+    background-color: #1c1c1c;
+    color: white;
+ }
 
 
 

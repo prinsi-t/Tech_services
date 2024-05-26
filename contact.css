@@ -119,3 +119,36 @@ section.main{
     outline: none;
     border-radius: 0.3em;
 }
+
+.sendBtn{
+        float: center;
+        padding: 10px 40px;
+        border:  2px solid  #5a189a;
+        border-radius: 2em;
+        font-weight: bold;
+        cursor: pointer;
+        background-color: #5a189a;
+        color: #fff;
+    
+}
+
+.sendBtn:hover{
+    background-color: #fff;
+    color: #5a189a;
+    font-weight: bold;
+}
+
+#theme-toggle{
+    margin-left: 3em;
+    margin-right: 1em;
+  }
+
+  
+.dark{
+    background-color: #1c1c1c;
+    color: white;
+
+    .contact-form{
+        color: black;
+    }
+}
