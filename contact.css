@@ -72,6 +72,13 @@
     font-weight: bold;
 }
 
+@media all and (max-width: 1024px){
+    .header nav ul{
+        margin-left: 5em;
+    }
+
+}
+
 /* main */
 
 section.main{
@@ -150,5 +157,15 @@ section.main{
 
     .contact-form{
         color: black;
+    }
+}
+
+@media all and (max-width: 1024px){
+    .main img{
+        margin-right: -5em;
+    }
+
+    .contact-form{
+        width: 90%;
     }
 }

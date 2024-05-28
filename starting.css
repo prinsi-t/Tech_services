@@ -105,5 +105,13 @@
  }
 
 
+@media all and (max-width: 1024px){
+    .arrow{
+        margin-left: 47%;
+    }
 
-  
+    .getstartBtn{
+        margin-left: 27em;
+        margin-bottom: 5em;
+    }
+}  

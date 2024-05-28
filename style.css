@@ -282,8 +282,15 @@ height: 40em;
   margin-right: -23em;
   margin-top: -5em;
 }
+@media all and (max-width: 1024px){
+ .inform{
+  margin-right: 23.5em;
+ }
+}
+
 
 .dark{
+
 
   background-color: #1c1c1c !important;
   color: white;
