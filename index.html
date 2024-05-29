@@ -13,18 +13,22 @@
 
 </head>
 <body>
-    <section class="header heading">
+    
+    <section id="hamburger-menu" class="header heading">
+        <button class="hamburger-button xl:hidden"> ☰ </button>
         <nav>
             <img class="logo" src="img/logo.png" alt="img" >
-            <ul>
-                <li>Home</li>
-                <li><a href="#section2">About Us</a></li>
-                <a href="contact.html"><li>Contact</li></a>
-                <li><a href="#works">Projects</a></li>
 
-                <button class="text-xl hover:text-black " onclick="myFunction()"><i class="fa-solid fa-moon"></i></button> 
-            </ul>
-            
+            <div class="nav-links">
+                <ul>
+                    <li>Home</li>
+                    <li><a href="#section2">About Us</a></li>
+                    <a href="contact.html"><li>Contact</li></a>
+                    <li><a href="#works">Projects</a></li>
+
+                    <button class="text-xl hover:text-black " onclick="myFunction()"><i class="fa-solid fa-moon"></i></button> 
+                </ul>
+            </div>
             <a href="starting.html"><button class="getBtn">Get Started</button></a>
         </nav>
 
