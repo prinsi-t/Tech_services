@@ -14,13 +14,19 @@
 </head>
 <body>
     
-    <section id="hamburger-menu" class="header heading">
-        <button class="hamburger-button xl:hidden"> ☰ </button>
-        <nav>
+    <section class="header heading">
+       
+        <nav role="navigation">
+
             <img class="logo" src="img/logo.png" alt="img" >
 
-            <div class="nav-links">
-                <ul>
+            <div id="menuToggle">
+                <input class="btn lg:hidden" type="checkbox" />
+                <span></span>
+                <span></span>
+                <span></span>
+                
+                <ul id="menu">
                     <li>Home</li>
                     <li><a href="#section2">About Us</a></li>
                     <a href="contact.html"><li>Contact</li></a>
@@ -29,6 +35,7 @@
                     <button class="text-xl hover:text-black " onclick="myFunction()"><i class="fa-solid fa-moon"></i></button> 
                 </ul>
             </div>
+
             <a href="starting.html"><button class="getBtn">Get Started</button></a>
         </nav>
 
@@ -55,20 +62,20 @@
     </main>
 
     <section id="section2" class="section2 bg-neutral-100 h-5/6 ">
-        <h2 class="text-3xl pt-12 ml-24 font-bold lg:text-2xl">Best Services Provider. <br>Control Your Business, Trust Us!</h2>
-        <p class="ml-36 mt-4 text-lg font-bold text-neutral-700 lg:text-base">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis soluta eos quibusdam nemo, <br> incidunt tempore corrupti est, perferendis nobis pariatur alias aliquam voluptatibus! Iusto, eos ea.</p>
+        <h2 class="text-3xl pt-12 ml-24 font-bold ">Best Services Provider. <br>Control Your Business, Trust Us!</h2>
+        <p class="ml-36 mt-4 text-lg font-bold text-neutral-700 ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis soluta eos quibusdam nemo, <br> incidunt tempore corrupti est, perferendis nobis pariatur alias aliquam voluptatibus! Iusto, eos ea.</p>
 
-        <section class="icons text-7xl bg-violet-900 mb-24 mt-16 text-center  h-96  flex items-center justify-center lg:text-5xl">
-            <div class="w-52 h-52  mr-20 rounded-lg bg-violet-500 lg:w-44 lg:h-44">
+        <section class="icons text-7xl bg-violet-900 mb-24 mt-16 text-center  h-96  flex items-center justify-center ">
+            <div class="world w-52 h-52  mr-20 rounded-lg bg-violet-500 ">
                 <i class="fa-solid fa-globe mt-7 text-white"><br><span class="text-sm">World</span></i>
             </div> 
-            <div class="w-52 h-52 text-purple-200 mr-20 rounded-lg bg-violet-500 lg:w-44 lg:h-44">
+            <div class="cloud w-52 h-52 text-purple-200 mr-20 rounded-lg bg-violet-500 ">
                 <i class="fa-solid fa-cloud-arrow-up mt-7 text-white"><br><span class="text-sm">Cloud</span></i>
             </div>
-            <div class="w-52 h-52 text-purple-200 mr-20 rounded-lg bg-violet-500 lg:w-44 lg:h-44">
+            <div class="tech w-52 h-52 text-purple-200 mr-20 rounded-lg bg-violet-500 ">
                 <i class="fa-solid fa-person-dots-from-line mt-7 text-white"><br><span class="text-sm">Tech</span></i>
             </div>
-            <div  class="w-52 h-52 text-purple-200 rounded-lg bg-violet-500 lg:w-44 lg:h-44">
+            <div  class="ideas w-52 h-52 text-purple-200 rounded-lg bg-violet-500 ">
                 <i class="fa-solid fa-lightbulb mt-7 text-white"><br><span class="text-sm">Ideas</span></i>
             </div>
         </section>
@@ -77,12 +84,12 @@
     </section>
 
     <section>
-        <p class="font-bold pt-20 text-violet-900 ml-48 w-32 lg:ml-10">Features Gallery</p>
-        <h2 id="works" class="works text-3xl mb-12 font-bold mt-4 ml-48 w-80 mr-48 lg:text-2xl lg:ml-10">Some Of Our Recent Work </h2>
-        <p class="para mb-12 lg:float-right lg:mr-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, <br>dignissimos consequatur, in reprehenderit dolor voluptatum ab velit similique<br> libero veniam tempore atque adipisci? At accusantium blanditiis sit beatae<br> ratione laboriosam laborum accusamus, porro magnam placeat? </p>
+        <p class="font-bold pt-20 text-violet-900 ml-48 w-32 ">Features Gallery</p>
+        <h2 id="works" class="works text-3xl mb-12 font-bold mt-4 ml-48 w-80 mr-48 ">Some Of Our Recent Work </h2>
+        <p class="para mb-12  ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, <br>dignissimos consequatur, in reprehenderit dolor voluptatum ab velit similique<br> libero veniam tempore atque adipisci? At accusantium blanditiis sit beatae<br> ratione laboriosam laborum accusamus, porro magnam placeat? </p>
       
         <br>
-        <div class="slider lg:mt-40">
+        <div class="slider ">
             <div class="slide">
                 <img src="img/img.png" alt="img">
             </div>
@@ -111,35 +118,35 @@
     
     <section class="progress mt-32 pt-20 bg-violet-600 text-white w-full">
 
-        <img class="ml-36 w-80 lg:ml-8 lg:w-72" src="main.png" alt="img">
+        <img class="ml-36 w-80 " src="main.png" alt="img">
 
 
-        <section class="work float-right mr-32 lg:mr-2">
+        <section class="work float-right mr-32 ">
             <p>Working Progress</p>
-            <h2 class="font-bold text-3xl mt-5 lg:text-2xl">How We Work For Our Customers </h2>
+            <h2 class="font-bold text-3xl mt-5 ">How We Work For Our Customers </h2>
             <p class="mt-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias ab quasi ipsam, <br>explicabo nulla rerum reiciendis expedita nesciunt sint. Nihil provident doloribus rem maiores?<br> Consectetur corrupti soluta libero tenetur quis error odit esse itaque quia!</p>
         </section>
 
 
-        <section class="inform float-right lg:text-sm">
+        <section class="inform float-right">
             <section class="research ">
-                <i class="fa-solid fa-book text-3xl lg:text-2xl"></i>
-                <span class="text-xl ml-3 lg:text-lg">Research & Content</span>
+                <i class="fa-solid fa-book text-3xl"></i>
+                <span class="text-xl ml-3 ">Research & Content</span>
                 <p class="mt-2">Lorem ipsum dolor sit amet consectetur<br> adipisicing elit. Ab, fugit?</p>
             </section>
             <section class="design">
-                <i class="fa-solid fa-clapperboard text-3xl lg:text-2xl"></i>
-                <span class="text-xl ml-2 lg:text-lg">Designing And Deploying</span>
+                <i class="fa-solid fa-clapperboard text-3xl "></i>
+                <span class="text-xl ml-2 ">Designing And Deploying</span>
                 <p class="mt-2 ml-10">Lorem ipsum dolor, sit amet consectetur adipisicing<br> elit. Doloremque explicabo quia error?</p>
             </section>
             <section class="testing">
-                <i class="fa-solid fa-comments text-3xl lg:text-2xl"></i>
-                <span class="text-xl ml-2 lg:text-lg">Testing & Launching</span>
+                <i class="fa-solid fa-comments text-3xl "></i>
+                <span class="text-xl ml-2 ">Testing & Launching</span>
                 <p class="mt-2 ml-12">Lorem ipsum, dolor sit amet <br>consectetur adipisicing elit. Quibusdam<br> ullam nam assumenda odio.</p>
             </section>
             <section class="delivering">
-                <i class="fa-solid fa-hand-holding-dollar text-3xl lg:text-2xl"></i>
-                <span class="text-xl ml-2 lg:text-lg">Delivering the Final Product</span>
+                <i class="fa-solid fa-hand-holding-dollar text-3xl "></i>
+                <span class="text-xl ml-2 ">Delivering the Final Product</span>
                 <p class="mt-2 ml-12">Lorem, ipsum dolor sit amet consectetur <br>adipisicing elit. Mollitia, exercitationem!</p>
             </section>
         </section>
@@ -150,7 +157,7 @@
 <br>
  <footer class="bg-neutral-200 mt-28">
     <div class="mx-auto w-full max-w-screen-xl">
-      <div class="grid grid-cols-2 gap-8 px-4 py-6 lg:py-8 md:grid-cols-4">
+      <div class="grid grid-cols-2 gap-8 px-4 py-6  md:grid-cols-4">
         <div>
             <h2 class="mb-6 text-sm font-bold text-violet-900 uppercase ">Company</h2>
             <ul class="text-gray-500  font-medium">
