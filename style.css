@@ -220,6 +220,11 @@ main{
 }
 
 /* section3 */
+#works{
+  float: left;
+  
+ }
+
 @media all and (max-width: 640px){
   .section3 {
     float: left;
@@ -238,7 +243,9 @@ main{
   }
 
   .works{
-    margin-left: 1em !important;
+    width: 90% !important;
+    margin-left: 0.5em !important;
+    margin-right: 0 !important;
   }
 
   .para{
@@ -248,19 +255,7 @@ main{
   
 }
 
-/* image slider */
-@media all and (max-width: 640px){
-  .slider{
-    float: left;
-    width: 60%;
-   height: 40%;
-  }
 
-  .slide img{
-    height: 40%;
-    width:60%;
-  }
-}
 
 
 @media all and (max-width: 1024px){
@@ -271,10 +266,7 @@ main{
 
 
 
-#works{
- float: left;
- 
-}
+
 
 .slider{
     position: relative;
@@ -353,6 +345,35 @@ main{
     background:#272727;
     }
 
+    /* image slider */
+@media all and (max-width: 640px){
+  .slide{
+    margin-top: -5em;
+  }
+
+  .slider{
+    float: left;
+    margin-left: 1em;
+    width: 90%;
+    
+  }
+
+  .slide img{
+    height: 400px ;
+    
+  }
+
+  .dotContainer{
+    float: left;
+    width: 100%;
+    margin-top: -2em;
+  }
+
+  .btnNext{
+    left: 15em ;
+  }
+}
+
 .progress{
 height: 40em;
 }
@@ -394,6 +415,56 @@ height: 40em;
   margin-right: 23.5em;
  }
 
+}
+
+@media all and (max-width: 640px){
+  .progress{
+    float: left;
+    width: 100%;
+    height: 100%;
+  }
+
+  .progress img{
+    float: left;
+    width: 90%;
+    margin-left: 1em;
+    height: 80%;
+  }
+
+  .work{
+    float: left;
+    width: 90%;
+    margin-top: 4em;
+    margin-right: 1em !important;
+  
+  }
+
+  .inform{
+    float: left !important;
+    width: 100%;
+    height: 100%;
+    margin-top: 5em;
+    margin-left: 1em;
+  }
+
+  .testing{
+    margin-left: 0;
+    
+    float: left;
+    margin-top: 12em;
+    margin-bottom: 5em;
+  }
+
+  .delivering{
+    float: left;
+   
+    margin-top: 4em;
+    margin-left: -1em;
+  }
+
+  .design, .research{
+    width: 80%;
+  }
 }
 
 
