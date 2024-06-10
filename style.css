@@ -213,10 +213,18 @@ main{
     margin-left: 0.5em;
   } 
 
-    .icons .ideas{
-    margin-left: -0.5em;
+ 
+
+}
+
+@media all and (max-width: 1024px){
+  .icons div{
+    margin-right: 1em;
   }
 
+  .world{
+    margin-left: 1em;
+  }
 }
 
 /* section3 */
@@ -224,49 +232,6 @@ main{
   float: left;
   
  }
-
-@media all and (max-width: 640px){
-  .section3 {
-    float: left;
-    width: 100%;
-    
-  }
-
-  .slider{
-   float: left;
-   width: 100%;
-  }
-
-  .section3 .span{
-    margin-left: 1em;
-    margin-top: -5em;
-  }
-
-  .works{
-    width: 90% !important;
-    margin-left: 0.5em !important;
-    margin-right: 0 !important;
-  }
-
-  .para{
-    margin-top: 0 !important;
-    margin-left: 1em;
-  }
-  
-}
-
-
-
-
-@media all and (max-width: 1024px){
-  .para{
-    margin-top: -7em;
-  }
-}
-
-
-
-
 
 .slider{
     position: relative;
@@ -343,9 +308,52 @@ main{
 
   .dot.active{
     background:#272727;
-    }
+}
 
-    /* image slider */
+@media all and (max-width: 1024px){
+  .works{
+    margin-right: 0 !important;
+  }
+  .para{
+    width: 40%;
+    margin-top: -2em;
+    margin-left: 35em;
+  }
+}
+
+
+@media all and (max-width: 640px){
+  .section3 {
+    float: left;
+    width: 100%;
+    
+  }
+
+  .slider{
+   float: left;
+   width: 100%;
+  }
+
+  .section3 .span{
+    margin-left: 1em;
+    margin-top: -5em;
+  }
+
+  .works{
+    width: 90% !important;
+    margin-left: 0.5em !important;
+    margin-right: 0 !important;
+  }
+
+  .para{
+    width: 80%;
+    margin-top: 0 !important;
+    margin-left: 1em;
+  }
+  
+}
+
+    
 @media all and (max-width: 640px){
   .slide{
     margin-top: -5em;
@@ -374,6 +382,8 @@ main{
   }
 }
 
+/* progress */
+
 .progress{
 height: 40em;
 }
@@ -396,8 +406,6 @@ height: 40em;
   margin-top: 4em;
 }
   
-
-
 .testing{
   float: right;
   margin-right: -22em;
@@ -410,10 +418,32 @@ height: 40em;
   margin-top: -5em;
 }
 
-@media all and (max-width: 1024px){
- .inform{
-  margin-right: 23.5em;
- }
+@media all and (min-width: 1024px){
+  .progress img{
+    margin-left: 1em;
+  }
+
+  .work{
+    margin-right: 0 !important;
+  
+  }
+
+  .inform{
+    margin-right: 17em !important;
+  }
+
+  .design p{
+    width: 60%;
+  }
+  .delivering{
+    margin-top: -8em;
+    margin-right: -15em !important;
+  }
+
+   .testing{
+    margin-top: -18em;
+    margin-right: -15em !important;
+  }
 
 }
 
