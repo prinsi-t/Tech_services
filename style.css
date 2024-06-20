@@ -415,13 +415,18 @@ height: 40em;
 
 .work{
   margin-top: -31em;
+  margin-right: 5em ;
 }
 
+.progress img{
+  margin-left: 10em !important;
+}
 
 .inform{
   margin-top: -17em;
-  margin-right: 24.5em;
+  margin-right: 25em !important;
 }
+
 
 .research p{
   margin-left: 3em;
@@ -449,12 +454,12 @@ height: 40em;
   }
 
   .work{
-    margin-right: 0 !important;
+    margin-right: 0 ;
   
   }
 
   .inform{
-    margin-right: 17em !important;
+    margin-right: 17em ;
   }
 
   .design p{
@@ -482,7 +487,7 @@ height: 40em;
   .progress img{
     float: left;
     width: 90%;
-    margin-left: 1em;
+    margin-left: 1em !important;
     height: 80%;
   }
 
