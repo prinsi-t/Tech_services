@@ -14,12 +14,20 @@
     <section class="header">
         <nav>
             <img class="logo" src="img/logo.png" alt="img" >
-            <ul>
+            <button class="darkModeBtn text-xl hover:text-black " onclick="myFunction()"><i class="fa-solid fa-moon"></i></button> 
+            
+            <div id="menuToggle">
+                <input class="btn lg:hidden" type="checkbox" />
+                <span></span>
+                <span></span>
+                <span></span>
+
+            <ul id="menu">
                 <li><a href="index.html">Home</li></a>
                 <li><a href="index.html#section2">About Us</a></li>
                 <li><a href="index.html#works">Projects</a></li>
 
-                <button class="text-xl hover:text-black " onclick="myFunction()"><i class="fa-solid fa-moon"></i></button> 
+                
             </ul>
 
             <a href="starting.html"><button class="getBtn">Get Started</button></a>
